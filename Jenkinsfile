@@ -1,17 +1,17 @@
 /* groovylint-disable-next-line CompileStatic */
 pipeline {
     agent any
-    stage('build') {
+    stage("build") {
         steps {
             script {
-                echo 'this is building block'
+                echo "this is building block"
             }
         }
     }
-    stage('deploy') {
+    stage("deploy") {
         steps {
             script {
-                echo 'this is deploy shit in my assss'
+                echo "this is deploy shit in my assss"
             }
         }
     }
